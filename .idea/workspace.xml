@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45132633-b2f1-4da8-9c13-c411c6479df9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/servises/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servises/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servises/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/Creditline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/Creditline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/Repayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/Repayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/Creditline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/Creditline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/Purchase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/Purchase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/Repayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/Repayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw3.odg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -252,7 +242,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/view" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -272,6 +262,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/view" />
     </key>
   </component>
@@ -336,7 +327,7 @@
       <workItem from="1554556199159" duration="836000" />
       <workItem from="1554573730362" duration="1518000" />
       <workItem from="1554624775679" duration="5951000" />
-      <workItem from="1554644597183" duration="3459000" />
+      <workItem from="1554644597183" duration="3480000" />
     </task>
     <servers />
   </component>
@@ -370,13 +361,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11764000" />
+    <option name="totallyTimeSpent" value="11785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25901276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25901276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,7 +375,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
