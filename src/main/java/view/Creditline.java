@@ -8,7 +8,7 @@ public class Creditline extends Repayment {
         try {
             String numa = reader.readLine();
             setCreditLineIncrease(numa);
-
+            reader.close();
             System.out.println("Вы сказали: " + getCreditLineIncrease() );
         } catch (IOException e) {
             e.printStackTrace();

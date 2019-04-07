@@ -15,6 +15,7 @@ public class Purchase extends Model {
 
         try {
             String numa = reader.readLine();
+
              setPurchase(numa);
 
             System.out.println("Ваша цель: " + getPurchase() );
