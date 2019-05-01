@@ -3,13 +3,13 @@ package view;
 import java.io.IOException;
 
 public class Creditline extends Repayment {
-    public Creditline() {
-        System.out.println("Вас интересует возможность увеличения кредитной линии ?(да/нет)");
+     {
+        System.out.println("Are you interested in the possibility of increasing the credit line ?(yes/no)");
         try {
             String numa = reader.readLine();
             setCreditLineIncrease(numa);
             reader.close();
-            System.out.println("Вы сказали: " + getCreditLineIncrease() );
+            System.out.println("You said: " + getCreditLineIncrease() );
         } catch (IOException e) {
             e.printStackTrace();
         }

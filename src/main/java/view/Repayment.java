@@ -3,14 +3,14 @@ package view;
 import java.io.IOException;
 
 public class Repayment extends Purchase {
-    public Repayment() {
-        System.out.println("Вас интересует возможность досрочного погашения кредита?(да/нет)");
+     {
+        System.out.println("Are you interested in the possibility of early repayment of the loan?(yes/no)");
         try {
             String numa = reader.readLine();
 
             setEarlyRepayment(numa);
 
-            System.out.println("Вы сказали: " + getEarlyRepayment() );
+            System.out.println("You said: " + getEarlyRepayment() );
         } catch (IOException e) {
             e.printStackTrace();
         }

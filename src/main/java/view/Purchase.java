@@ -8,9 +8,9 @@ import java.io.InputStreamReader;
 
 public class Purchase extends Model {
     BufferedReader reader = new BufferedReader( new InputStreamReader(System.in));
-    public Purchase() {
+     {
 
-        System.out.println("Введите цель кредита(машина/квартира)");
+        System.out.println("Input purpose of credit(car/flat)");
 
 
         try {
@@ -18,7 +18,7 @@ public class Purchase extends Model {
 
              setPurchase(numa);
 
-            System.out.println("Ваша цель: " + getPurchase() );
+            System.out.println("Your purpose: " + getPurchase() );
         } catch (IOException e) {
             e.printStackTrace();
         }

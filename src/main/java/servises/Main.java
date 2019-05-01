@@ -7,6 +7,6 @@ public class Main {
           new Creditline();
           
           Controller controller = new Controller();
-          System.out.println("Ваши условия выполняются только в банке " + controller.goodadvise());
+          System.out.println("Your conditions are met only in the bank " + controller.getBank());
     }
 }

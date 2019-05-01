@@ -1,7 +1,7 @@
 package servises;
 
 import module.Banks;
-import module.Model;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,74 +16,74 @@ public class ControllerTest {
 
     @Test
     public void returnSwed() {
-        controller.setPurchase("машина") ;
-        controller.setEarlyRepayment("да");
-        controller.setCreditLineIncrease("да");
+        controller.setPurchase("car") ;
+        controller.setEarlyRepayment("yes");
+        controller.setCreditLineIncrease("yes");
 
-        Banks result = controller.goodadvise();
+        Banks result = controller.getBank();
         assertEquals(Banks.SWED, result);
     }
     @Test
     public void returnSwedtoo() {
-        controller.setPurchase("квартира") ;
-        controller.setEarlyRepayment("нет");
-        controller.setCreditLineIncrease("нет");
+        controller.setPurchase("flat") ;
+        controller.setEarlyRepayment("no");
+        controller.setCreditLineIncrease("no");
 
-        Banks result = controller.goodadvise();
+        Banks result = controller.getBank();
         assertEquals(Banks.SWED, result);
     }
     @Test
     public void returnPriv() {
-        controller.setPurchase("машина") ;
-        controller.setEarlyRepayment("нет");
-        controller.setCreditLineIncrease("да");
+        controller.setPurchase("car") ;
+        controller.setEarlyRepayment("no");
+        controller.setCreditLineIncrease("yes");
 
-        Banks result = controller.goodadvise();
+        Banks result = controller.getBank();
         assertEquals(Banks.PRIVAT, result);
     }
     @Test
     public void returnPrivtoo() {
-        controller.setPurchase("квартира") ;
-        controller.setEarlyRepayment("да");
-        controller.setCreditLineIncrease("нет");
+        controller.setPurchase("flat") ;
+        controller.setEarlyRepayment("yes");
+        controller.setCreditLineIncrease("no");
 
-        Banks result = controller.goodadvise();
+        Banks result = controller.getBank();
         assertEquals(Banks.PRIVAT, result);
     }
     @Test
     public void returnMono() {
-        controller.setPurchase("машина") ;
-        controller.setEarlyRepayment("да");
-        controller.setCreditLineIncrease("нет");
+        controller.setPurchase("car") ;
+        controller.setEarlyRepayment("yes");
+        controller.setCreditLineIncrease("no");
 
-        Banks result = controller.goodadvise();
+        Banks result = controller.getBank();
         assertEquals(Banks.MONO, result);
     }
     @Test
     public void returnMonotoo() {
-        controller.setPurchase("квартира") ;
-        controller.setEarlyRepayment("нет");
-        controller.setCreditLineIncrease("да");
+        controller.setPurchase("flat") ;
+        controller.setEarlyRepayment("no");
+        controller.setCreditLineIncrease("yes");
 
-        Banks result = controller.goodadvise();
+        Banks result = controller.getBank();
         assertEquals(Banks.MONO, result);
     }
     @Test
     public void returnIbox() {
-        controller.setPurchase("машина") ;
-        controller.setEarlyRepayment("нет");
-        controller.setCreditLineIncrease("нет");
+        controller.setPurchase("car") ;
+        controller.setEarlyRepayment("no");
+        controller.setCreditLineIncrease("no");
 
-        Banks result = controller.goodadvise();
+        Banks result = controller.getBank();
         assertEquals(Banks.IBOX, result);
     }
     @Test
     public void returnIboxtoo() {
-        controller.setPurchase("квартира") ;
-        controller.setEarlyRepayment("да");
-        controller.setCreditLineIncrease("да");
+        controller.setPurchase("flat") ;
+        controller.setEarlyRepayment("yes");
+        controller.setCreditLineIncrease("yes");
 
-        Banks result = controller.goodadvise();
+        Banks result = controller.getBank();
         assertEquals(Banks.IBOX, result);
     }
 }

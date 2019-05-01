@@ -7,11 +7,7 @@ public class Model {
 
 
 
-    /*public Model(String purchase, String earlyRepayment, String creditLineIncrease) {
-        this.purchase = purchase;
-        this.earlyRepayment = earlyRepayment;
-        this.creditLineIncrease = creditLineIncrease;
-    }*/
+
 
     public Model(){
 
@@ -41,12 +37,5 @@ public class Model {
         this.creditLineIncrease = creditLineIncrease;
     }
 
-   /* @Override
-    public String toString() {
-        return "Model{" +
-                "purchase='" + purchase + '\'' +
-                ", earlyRepayment=" + earlyRepayment +
-                ", creditLineIncrease=" + creditLineIncrease +
-                '}';
-    }*/
+
 }

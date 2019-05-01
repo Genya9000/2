@@ -4,11 +4,22 @@ import module.Banks;
 import module.Model;
 
 public class Controller extends Model {
-    public Banks goodadvise(){
-        if((getPurchase().equals("машина"))&&(getEarlyRepayment().equals("да"))&&(getCreditLineIncrease().equals("да"))||(getPurchase().equals("квартира"))&&(getEarlyRepayment().equals("нет"))&&(getCreditLineIncrease().equals("нет"))) return Banks.SWED;
-        if((getPurchase().equals("машина"))&&(getEarlyRepayment().equals("нет"))&&(getCreditLineIncrease().equals("да"))||(getPurchase().equals("квартира"))&&(getEarlyRepayment().equals("да"))&&(getCreditLineIncrease().equals("нет"))) return Banks.PRIVAT;
-        if((getPurchase().equals("машина"))&&(getEarlyRepayment().equals("да"))&&(getCreditLineIncrease().equals("нет"))||(getPurchase().equals("квартира"))&&(getEarlyRepayment().equals("нет"))&&(getCreditLineIncrease().equals("да"))) return Banks.MONO;
-        return Banks.IBOX;
+    public  Banks getBank(){
 
+        return getShwed();
     }
+    public Banks getShwed(){
+        if((getPurchase().equals("car"))&&(getEarlyRepayment().equals("yes"))&&(getCreditLineIncrease().equals("yes"))||(getPurchase().equals("flat"))&&(getEarlyRepayment().equals("no"))&&(getCreditLineIncrease().equals("no"))) return Banks.SWED;
+    return getPrivat();
+    }
+    public Banks getPrivat(){
+        if((getPurchase().equals("car"))&&(getEarlyRepayment().equals("no"))&&(getCreditLineIncrease().equals("yes"))||(getPurchase().equals("flat"))&&(getEarlyRepayment().equals("yes"))&&(getCreditLineIncrease().equals("no"))) return Banks.PRIVAT;
+    return getMono();
+    }
+    public Banks getMono(){
+        if((getPurchase().equals("car"))&&(getEarlyRepayment().equals("yes"))&&(getCreditLineIncrease().equals("no"))||(getPurchase().equals("flat"))&&(getEarlyRepayment().equals("no"))&&(getCreditLineIncrease().equals("yes"))) return Banks.MONO;
+    return Banks.IBOX;
+    }
+
+
 }
