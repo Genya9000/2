@@ -1,12 +1,13 @@
 package view;
 
 import module.Model;
+import servises.Controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Purchase extends Model {
+public class Purchase extends Controller {
     BufferedReader reader = new BufferedReader( new InputStreamReader(System.in));
      {
 
