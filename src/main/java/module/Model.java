@@ -1,6 +1,8 @@
 package module;
 
-public class Model {
+import servises.Main;
+
+public class Model extends Main {
     private  static String purchase;
     private  static String earlyRepayment;
     private  static String creditLineIncrease;
